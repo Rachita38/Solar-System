@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head> 
+<title> The Solar System </title>
+<link rel="stylesheet" href="planets.css">
+</head>
+
+<body>
+<p id="text" class="planets"></p>
+
+<audio controls autoplay="true">
+<source src="space.wav" type="audio/wav">
+</audio>
+
+
+<img class="sun" src="sun.jpg" height="300" width="270" onClick="DisplaySun()">
+<img class="mercury" src="mercury.jpg" height="100" width="100" onclick="DisplayMercury()">
+<img class="venus" src="venus.jpg" height="100" width="180" onclick="DisplayVenus()">
+<img class="earth" src="Earth.jpeg" height="100" width="100" onclick="DisplayEarth()">
+<img class="mars" src="Mars.jpg" height="100" width="100" onclick="DisplayMars()">
+<img class="jupiter" src="jupiter.png" height="100" width="100" onclick="DisplayJupiter()">
+<img class="saturn" src="saturn.jpg" height="100" width="200" onclick="DisplaySaturn()">
+<img class="uranus" src="uranus.jpg" height="100" width="100" onclick="DisplayUranus()">
+<img class="neptune" src="neptune.jpg" height="150" width="200" onclick="DisplayNeptune()">
+
+
+<script>
+function DisplaySun()
+{
+document.getElementById("text").style.color = "white";
+document.getElementById("text").innerHTML = "The sun lies at the heart of the solar system, where it is by far the largest object.It holds 99.8 percent of the solar system's mass and is roughly 109 times the diameter of the Earth-about one million Earths could fit inside the sun.";
+}
+function DisplayMercury()
+{
+document.getElementById("text").style.color = "white";
+document.getElementById("text").innerHTML = "Mercury is the smallest and innermost planet in the Solar System.Its orbital period around the Sun of 88 days is the shortest of all the planets in the Solar System.It is named after the Roman deity Mercury, the messenger to the gods."; 
+}
+function DisplayVenus()
+{
+document.getElementById("text").style.color = "white";
+document.getElementById("text").innerHTML = "Venus is the second planet from the Sun and is the second brightest object in the night sky after the Moon.Venus is the second largest terrestrial planet and is sometimes referred to as the Earth's sister planet due the their similar size and mass.";
+}
+
+function DisplayEarth()
+{
+document.getElementById("text").style.color = "white";
+document.getElementById("text").innerHTML ="Earth, our home, is the third planet from the sun. It is the only planet known to have an atmosphere containing free oxygen, oceans of liquid water on its surface, and, of course, life. ... About a fifth of Earth's atmosphereis made up of oxygen, produced by plants."; 
+}
+
+function DisplayMars()
+{
+document.getElementById("text").style.color = "white";
+document.getElementById("text").innerHTML = "Mars is the fourth planet from the Sun and is the second smallest planet in the solar system. Named after the Roman god of war, Mars is also often described as the “Red Planet” due to its reddish appearance. Mars is a terrestrial planet with a thin atmosphere composed primarily of carbon dioxide.";
+}
+
+function DisplayJupiter()
+{
+document.getElementById("text").style.color = "white";
+document.getElementById("text").innerHTML ="Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a giant planet with a mass one-thousandth that of the Sun, but two-and-a-half times that of all the other planets in the Solar System combined";
+}
+
+function DisplaySaturn()
+{
+document.getElementById("text").style.color = "white";
+document.getElementById("text").innerHTML = "Saturn is the sixth planet from the sun and the second largest planet in the solar system. Saturn was the Roman name for Cronus, the lord of the Titans in Greek mythology. Saturn is the root of the English word Saturday.";
+}
+
+function DisplayUranus()
+{
+document.getElementById("text").style.color = "white";
+document.getElementById("text").innerHTML = "Uranus is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.";
+}
+
+function DisplayNeptune()
+{
+document.getElementById("text").style.color = "white";
+document.getElementById("text").innerHTML = "Neptune is the smallest of the ice giants. Despite being smaller than Uranus, Neptune has a greater mass. Below its heavy atmosphere, Uranus is made of layers of hydrogen, helium, and methane gases. They enclose a layer of water, ammonia and methane ice.";
+}
+</script>
+
+</body>
+</html>
